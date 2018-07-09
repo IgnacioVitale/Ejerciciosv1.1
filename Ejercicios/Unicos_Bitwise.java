@@ -1,16 +1,5 @@
 public class Unicos_Bitwise {
     public static void main(String[] args) {
-        // write your code here
-        int x=1;
-        int y=0;
-//        System.out.println(x);
-        x=x<<2;
-//        System.out.println(x);
-        String dd="Ignacio";
-        y=dd.charAt(0)-'a';
-//        System.out.println(y);
-
-
         String str="qwertyuiopasdfghjklzxcvbnm";
         System.out.println(Unicos(str));
 
@@ -28,7 +17,6 @@ public class Unicos_Bitwise {
                 return false;
             }
             check=(check|(1<<index));
-            System.out.println(check);
         }
         return true;
     }
